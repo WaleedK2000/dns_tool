@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap'); /* Remove Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons&display=block'); /* Material Icons */
+
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.logo {
+  /* Add logo styles */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 300px; /* Set a max-width to control the width of the login box */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-field {
+  width: 100%; /* Adjust width as needed */
+  background-color: #fff;
+//   border: 1px solid #ccc;
+  border-radius: 4px;
+//   padding: 8px;
+}
+
+.login-button {
+  width: 100%; /* Adjust width as needed */
+}
+
+.error-messages {
+  color: red;
+  margin-top: 10px;
+}

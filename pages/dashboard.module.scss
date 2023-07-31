@@ -1,0 +1,16 @@
+.cpu-monitor-container {
+    padding: 20px;
+  
+    .chart-paper {
+        margin-top: 20px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 300px; /* Adjust the height as needed */
+    }
+  
+    .chart-container {
+      margin-bottom: 30px; /* Add space between the two Grids */
+    }
+  }
